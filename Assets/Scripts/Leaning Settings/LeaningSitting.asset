@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 854f18e4031e4084bbd05f9212d3defc, type: 3}
+  m_Name: LeaningSitting
+  m_EditorClassIdentifier: 
+  leaningType: 0
+  userForwardReference: 0
+  calibrationType: 2
+  breakType: 0
+  breakStrength: 0.5
+  gradualBreakTime: 0.5
+  maxSpeed: 1.5
+  yawRotationAxisOffset: 0.15
+  maxLeaningRadius: 0.2
+  exponentialTransferFunctionPower: 1.53
+  speedSensitivity: 1
+  deadzoneRadiusSetting: 1
+  deadZonePercentage: 0.1
+  deadzoneRadius: 0.05
+  maxLeaningRadius_Forward: 0.4
+  maxLeaningRadius_Side: 0.3
+  maxLeaningRadius_Backward: 0.2
+  deadZonePercentage_Forward: 0.1
+  deadZonePercentage_Side: 0.1
+  deadZonePercentage_Backward: 0.1
+  deadzoneRadius_Forward: 0.1
+  deadzoneRadius_Side: 0.08
+  deadzoneRadius_Backward: 0.12
